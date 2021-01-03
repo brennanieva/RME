@@ -1,4 +1,4 @@
-<style>body,
+body,
 h1,
 h2,
 h3,
@@ -36,7 +36,7 @@ html {
 
 .bgimg-1 {
     background-color: #497e97;
-    min-height: 100%;
+    min-height: 50%;
 }
 
 .bgimg-2 {
@@ -46,7 +46,7 @@ html {
 
 .bgimg-3 {
     background-color: #497e97;
-    min-height: 20%;
+    min-height: 10%;
 }
 
 .button {
@@ -73,7 +73,6 @@ html {
 
 
 /* Turn off parallax scrolling for tablets and phones */
-
 @media only screen and (max-device-width: 1600px) {
     .bgimg-1,
     .bgimg-2,
@@ -87,4 +86,24 @@ html {
     text-align: center;
 }
 
-</style>
+.about-header {
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.about-paragraph {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.contact {
+    display: inline-block;
+    padding: 5px;
+}
+
+i {
+    vertical-align: middle;
+    padding-right: 2px;
+    margin: 0px;
+}
