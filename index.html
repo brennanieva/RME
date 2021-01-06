@@ -8,153 +8,86 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
 
-
 <body>
     <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#home" class="w3-bar-item w3-button">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="#signup" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil-square-o"></i> SIGN UP</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-                <i class="fa fa-search"></i>
-            </a>
-        </div>
 
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-            <a href="#signup" class="w3-bar-item w3-button" onclick="toggleFunction()">SIGN UP</a>
-
-            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-        </div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#signup" class="w3-bar-item w3-button" onclick="toggleFunction()">SIGN UP</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
     </div>
 
     <!-- First Parallax Image with Logo Text -->
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">RAD <span class="w3-hide-small">MUTUAL</span> EDUCATION</span>
+        <div class="w3-display-middle center" style="color:white;">
+            <h1 class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" style="white-space:nowrap;">RAD MUTUAL EDUCATION</h1>
         </div>
     </div>
 
-    <!-- Container (About Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="about">
-        <div class="center">
-            <h3 class="center">ABOUT US</h3>
-            <p class="center"><em>Who We Are</em></p>
-            <p>Rad Mutual Education is an organization committed to bringing STEM (science, technology,engineering, & mathematics) education to our communities through organized skillshare and incollaboration with mutual aid organizations.Individually, we
-                are computer science students at Western Washington University who wish tosee our communities thrive, and believe that providing STEM education for the youth is one ofthe most effective ways of doing that.</p>
+    <main class="w3-content w3-container w3-padding-32">
 
-            <p class="center"><em>What We Provide</em></p>
-            <p>Exposure to various fields is beneficial to personal growth and understanding - no matter whatyour student hopes to study someday, learning about computer science is expanding theirknowledge of what’s out there.
+        <!-- Hook & Signup -->
+        <h2 class="center">Our Mission</h2>
+        <p class="center"> Rad Mutual Education is an organization, consisting of computer science students at Western Washington University, 
+            comitted to bringing STEM (science, technology, endineering, and mathematics) education to our communities. We want to see our 
+            community thrive and belive that providing the youth with STEM education is an important factor in this goal. Through organized 
+            skillshare and in collboration with mutual aid organization, we hope to expose individuals to computer science, a growing 
+            field lacking diversity.
+        </p>
+        <div class="center"><button class="button" onclick="document.location='https://docs.google.com/forms/d/e/1FAIpQLSeFR2HDBcOzyzcNNRkvttAshhtDgqfAYFS-RpS5nJOwASXLkA/viewform'">Sign Up</button></div>
+
+        <!-- Container (About Section) -->
+        <div class="w3-padding-32">
+            <h2 class="about-header">Who We Are</h3>
+            <p class="about-paragraph"> Rad Mutual Education is an organization committed to bringing STEM (science, technology, 
+                engineering, & mathematics) education to our communities through organized skillshare and in collaboration with mutual aid 
+                organizations. Individually, we are computer science students at Western Washington University who wish tosee our communities 
+                thrive, and believe that providing STEM education for the youth is one ofthe most effective ways of doing that.</p>
+
+            <h2 class="about-header">What We Provide</h3>
+            <p class="about-paragraph"> We provide students within and in association with our communities with free STEM education. 
+                At this time, we are only offering free regular computer science and programming lessons forstudents ages ten and up via 
+                Zoom. Your student does <b>not</b> need to know computer science, programming, or math. Each unit we teach will introduce 
+                a wide range of important computer science topics and skills.
             </p>
-            <p class="center"><em>Why It Matters</em></p>
-            <p>We provide students within and in association with our communities with free STEM education.At this time, we are only offering free regular computer science and programming lessons forstudents ages ten and up via Zoom. Your student does ​not​
-                need to know computer science,programming, or math. Each unit we teach will introduce a wide range of important computerscience topics and skills.<br>If you do not have computer or internet access, we will help coordinate with local resources,such
-                as schools, libraries, and community members, to provide suitable technologies. We willprovide free snacks, books, and paper activity drop-offs to ensure that we are clearing as manyobstacles as possible for kids who would like to learn
-                with us..
-            </p>
-            <p class="center"><em>Where Community Thrives</em></p>
-            <p>We will continue to grow RME to meet the needs of our community, with immediate efforts toeliminate traditional barriers to learning by collaborating with mutual aid groups. Weencourage you to connect with us and share thoughts on how to best
-                support the educationalneeds of our community as this change occurs.
+            <p class="about-paragraph"> If you do not have computer or internet access, we will help coordinate with local resources, 
+                such as schools, libraries, and community members, to provide suitable technologies. We will provide free snacks, books, 
+                and paper activity drop-offs to ensure that we are clearing as many obstacles as possible for kids whowould like to learn 
+                with us.
             </p>
 
-        </div><br><br><br><br>
+            <h2 class="about-header">Why It's Useful</h3>
+            <p class="about-paragraph"> Exposure to various fields is beneficial to personal growth and understanding - no matter what 
+                your student hopes to study someday, learning about computer science is expanding their knowledge of what’s out there.
+            </p>
 
-
-
-    </div>
-
-    <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">SIGN UP</span>
+            <h2 class="about-header">Where Community Matters</h3>
+            <p class="about-paragraph"> We will continue to grow RME to meet the needs of our community, with immediate efforts to 
+                eliminate traditional barriers to learning by collaborating with mutual aid groups. We encourage you to connect with us 
+                and share thoughts on how to best support the educationalneeds of our community as this change occurs.
+            </p>
         </div>
-    </div>
-    <!-- Container (About Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="signup">
-        <h3 class="w3-center">Sign Up Your Student!</h3>
-        <div class="center">
-            <p>Fill out the form below to register your student with an RME class</p><br><br>
-            <button class="button" onclick="document.location='https://bit.ly/RadMutualEducation'">Link to Form</button>
+    </main>
+
+    <!-- Footer  -->
+    <footer class="w3-center w3-black w3-padding-32 w3-opacity">
+        <!-- Location -->
+        <div class='contact'>
+            <i class="fa fa-map-marker fa-lg"></i>
+            Bellingham, WA
         </div>
-
-    </div>
-
-    <!-- Third Parallax Image with Portfolio Text -->
-    <div class="bgimg-3 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        <!-- Instagram -->
+        <div class='contact'>
+            <i class="fa fa-instagram fa-lg"></i>
+            @radmutualeducation
         </div>
-    </div>
-
-    <!-- Container (Contact Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="contact">
-        <h3 class="w3-center">How To Get Involved</h3>
-
-        <div class="center">
-
-            <div class="w3-row w3-padding-32 w3-section">
-
-
-                <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bellingham, WA<br>
-                    <i class="fa fa-pencil-square-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Sign Up Your Student: https://bit.ly/RadMutualEducation<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> RadMutualEducation@gmail.com<br>
-                </div>
-
-
-
-            </div>
+        <!-- Email -->
+        <div class='contact'>
+            <i class="fa fa-envelope fa-lg"></i>
+            RadMutualEducation@gmail.com
         </div>
-    </div>
-
-    <!-- Footer
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-
-
-    </footer> -->
-
-    <script>
-        // Modal Image Gallery
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-            var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
-        }
-
-        // Change style of navbar on scroll
-        window.onscroll = function() {
-            myFunction()
-        };
-
-        function myFunction() {
-            var navbar = document.getElementById("myNavbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-            }
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
-
+    </footer>
 </body>
-
 </html>
